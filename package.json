@@ -1,0 +1,21 @@
+{
+  "name": "invertism",
+  "version": "0.0.1",
+  "description": "A dependency inversion utility",
+  "main": "src/invertism.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/pogo/bin/pogo -c src/invertism.pogo && mocha test/*.pogo"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {},
+  "devDependencies": {
+    "should": "~1.2.2",
+    "pogo": "~0.4.3",
+    "mocha": "~1.12.0"
+  }
+}
