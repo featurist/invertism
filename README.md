@@ -2,7 +2,7 @@
 
 A dependency inversion utility for JavaScript.
 
-Use invertism for [partial appliction](http://en.wikipedia.org/wiki/Partial_application) of constructors and other functions, where arguments are injected from on a set of named services.
+Use invertism to inject arguments into constructors and other functions, from a set of named services.
 
 ## Install
 
